@@ -1,21 +1,35 @@
-body {
-  font-family: sans-serif;
+.Hero {
+  background-image: url("./fruits_veggies_1152X866.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-a {
-  text-decoration: none;
+.Hero-header {
+  background-color: #282c34;
+  padding: 0 2em;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-label {
-  display: block;
+.Hero-header a {
+  color: white;
 }
 
-nav a {
-  display: inline-block;
-  margin: 1em;
+.Hero-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
 }
 
-form div {
-  margin: 1em;
-  display: inline-block;
+.Left-hero,
+.Right-hero {
+  max-width: 50%;
+  width: 50%;
 }

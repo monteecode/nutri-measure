@@ -1,15 +1,25 @@
-import React from 'react'
+import React from "react";
+import { withRouter, Route, Switch, Redirect } from "react-router-dom";
+import Homepage from "./components/homepage/Homepage";
+import Registration from "./components/forms/Registration";
+import Login from "./components/forms/Login";
 
-import Navbar from './components/Navbar'
-import Routes from './Routes'
-
-const App = () => {
+function App() {
   return (
-    <div>
-      <Navbar />
-      <Routes />
+    <div className="App">
+      <Switch>
+        <Route exact path="/">
+          <Homepage />
+        </Route>
+        <Route path="/login">
+          <Login />
+        </Route>
+        <Route path="/register">
+          <Registration />
+        </Route>
+      </Switch>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
