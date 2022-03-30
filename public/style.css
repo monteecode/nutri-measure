@@ -1,3 +1,8 @@
+body {
+  font-family: "Lexend", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+}
+
 .Hero {
   background-image: url("./fruits_veggies_1152X866.jpg");
   background-repeat: no-repeat;
@@ -32,4 +37,19 @@
 .Right-hero {
   max-width: 50%;
   width: 50%;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.Left-hero {
+  background-color: rgba(250, 255, 95, 0.6);
+}
+
+.Right-hero a {
+  text-decoration: none;
+  padding: 25px;
+  background-color: seagreen;
+  color: white;
 }

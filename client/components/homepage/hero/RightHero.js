@@ -1,14 +1,12 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const RightHero = () => {
-    return (
-        <div className="Right-hero">
-            <button>
-                <Link to='/register'>GET STARTED</Link>
-            </button>
-        </div>
-    )
-}
+  return (
+    <div className="Right-hero">
+      <Link to="/register">GET STARTED</Link>
+    </div>
+  );
+};
 
-export default RightHero
+export default RightHero;

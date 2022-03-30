@@ -1,15 +1,13 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
-
-function HeroNav(){
-    return (
-        <header className="Hero-header">
-            <Link to="/">Nutrimeasure</Link>
-            <Link to="/login" >LOGIN</Link>
-        </header>
-        
-    )
+function HeroNav() {
+  return (
+    <header className="Hero-header">
+      <Link to="/">Nutrimeasure</Link>
+      <Link to="/login">login</Link>
+    </header>
+  );
 }
 
-export default HeroNav
+export default HeroNav;
